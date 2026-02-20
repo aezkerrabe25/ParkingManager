@@ -54,4 +54,3 @@
         <p class="text-gray-600">Bilaketa egin nahi baduzu, sartu zerbait goian.</p>
     @endif
 </div>
-@endsection
