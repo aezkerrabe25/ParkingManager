@@ -4,8 +4,8 @@
     <h2>Autoen zerrenda</h2>
     <table border="1">
         <tr>
-            <th>Plaka</th><th>Marka</th><th>Modeloa</th><th>Aukerak</th>
+            <th>Plaka</th><th>Marka</th><th>Modeloa</th><th>Jabea</th><th>Aukerak</th>
         </tr>
-        @each('partials.auto_lerroa', $autoak, 'autoa')
+        @each('componentes.auto_lerroa', $autoak, 'autoa')
     </table>
 @endsection

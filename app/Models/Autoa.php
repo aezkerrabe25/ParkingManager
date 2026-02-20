@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Autoa extends Model
 {
-    //
+    protected $table = 'autoak';
 
     public function jabea() {
         return $this->belongsTo(Erabiltzailea::class, 'erabiltzaile_id');

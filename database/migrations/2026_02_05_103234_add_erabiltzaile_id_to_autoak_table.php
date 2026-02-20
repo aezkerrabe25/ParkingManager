@@ -25,7 +25,8 @@ return new class extends Migration
     public function down(): void
     {
         Schema::table('autoak', function (Blueprint $table) {
-            //
+            $table->dropForeign(['erabiltzaile_id']);
+            $table->dropColumn('erabiltzaile_id');
         });
     }
 };
